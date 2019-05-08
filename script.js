@@ -1,5 +1,5 @@
 var money = +prompt("Ваш бюджет на месяц?"),
-    time = prompt('Введите дату в формате YYYY-MM-DD'),
+    time = prompt('Введите дату в формате YYYY-MM-DD');
     
 var appData = {
     budget:money,
@@ -11,8 +11,8 @@ var appData = {
 };
 
 for  (let i = 0; i < 2; i++) {
-    let itemExpName = prompt('Введите обязательную статью расходов №1 в этом месяце'),
-        itemExpCost = +prompt('Во сколько обойдутся траты по ней?'),
+    let itemExpName = prompt('Введите обязательную статью расходов в этом месяце'),
+        itemExpCost = +prompt('Во сколько обойдутся траты по ней?');
 
     if ((typeof(itemExpName)) === 'string' && (typeof(itemExpName)) != null && (typeof(itemExpCost)) != null
     && itemExpName != '' && itemExpCost != ''  && itemExpName.length < 50) {
@@ -20,6 +20,7 @@ for  (let i = 0; i < 2; i++) {
         appData.expenses[itemExpName] = itemExpCost;
     } else {
         alert('please, use correct input');
+        i--; 
         continue;
     }
 };
@@ -36,6 +37,7 @@ if(appData.moneyPerDay < 100) {
     console.log('WRONG!');
 }
 
+var a = console.log(appData);
 
 /*
   Ответы на вопросы из задания:
