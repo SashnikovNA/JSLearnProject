@@ -20,6 +20,8 @@ var appData = {
 let oneDayBudget = (appData.budget - appData.expenses.item1ExpName - appData.expenses.item2ExpName) / 30;
 alert("Бюджет на один день составит - " + oneDayBudget.toFixed(2));
 
+let woooooowwwww = alert("Hi, Dany");
+
 
 /*  Ответы на вопросы из задания:
 1 - Сколько типов данных существует в JS?
