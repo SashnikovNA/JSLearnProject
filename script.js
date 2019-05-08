@@ -21,6 +21,8 @@ let oneDayBudget = (appData.budget - appData.expenses.item1ExpName - appData.exp
 alert("Бюджет на один день составит - " + oneDayBudget.toFixed(2));
 
 let woooooowwwww = alert("Hi, Dany");
+let andy = 3;
+
 
 
 /*  Ответы на вопросы из задания:
