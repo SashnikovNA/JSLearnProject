@@ -71,6 +71,8 @@ switch (num) {
         console.log("something strange!!!");
         break;
 }
+var qqqq = document.write("dsdffsdfsdf");
+
 
 
 
